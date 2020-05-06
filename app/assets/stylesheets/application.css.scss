@@ -1,0 +1,67 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ 
+ */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ @import 'normalize';
+
+ a{
+    text-decoration: none;
+    color: inherit;
+ }
+
+ /*
+ html, body{
+     font-family: 'PT Sans Narrow', sans-serif;
+ }
+
+ h1, h2, h3, h4, h5, h6{
+     font-weight: 600;
+ }
+
+ .links{
+     margin: 2em 0;
+ }
+
+ input[type="text"], input[type="email"], input[type="password"], textarea{
+     width: 70%;
+     border: 1px solid #d6dce0;
+     border-radius: .35em;
+     margin-top: 20px;
+     padding: .5em 1em;
+     line-height: 1.75;
+ }
+
+ input[type="text"]{
+     height: 35px;
+ }
+
+ textarea{
+     min-height: 180px;
+ }
+
+ input[type="submit"]{
+     outline: none;
+     background: transparent;
+     border: 1px solid #d6dce0;
+     padding: .5em 1em;
+     font-size: 1.1em;
+     border-radius: 1.5em;
+     margin-left: .5em;
+     &:hover{
+         border: 1px solid #33acb7;
+         color: #33acb7;
+     }
+ }
+ */
